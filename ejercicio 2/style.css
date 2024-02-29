@@ -1,0 +1,82 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    background-color: rgb(227, 227, 227);
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*Arriba*/
+.head{
+    padding: 15px;
+    text-align: center;
+}
+
+
+/*Foto*/
+#img-div{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+}
+
+
+#image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption{
+    margin-top: 30px;
+    font-size: x-large;
+}
+
+
+
+/*Toda la parte del tributo*/
+#tribute-info{
+    width: 50%;
+    margin: auto;
+}
+
+ul{
+    font-size: 15px;
+}
+li{
+    margin: 20px;
+    
+}
+.resaltar{
+    font-weight: bold;
+}
+.quote{
+    width: 50%;
+    margin: 50px 10%;
+    font-style: italic;
+    font-weight: 700;
+
+}
+
+
+
+/*Abajo*/
+
+.wiki{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.wiki a:hover{
+    color: rgb(81, 81, 81);
+}
+.wiki a{
+    color: rgb(0, 40, 100);
+}
+
