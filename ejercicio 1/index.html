@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost Pet Registry</title>
+    <link rel="icon" href="img/missing.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Lost Pet Registration</h1>
+    <p id="description">Register your pet to be found</p>
+    
+    <!--PET INFO-->
+    <fieldset><legend><strong>Pet info</strong></legend>
+        <form id="survey-form">
+
+            <label><strong>Pet's name: </strong></label><input id="pet-name" type="text" required>
+
+            <label id="number-label"><strong>Days lost: </strong></label><input id="number" type="number" min="2" max="30" placeholder=" 2 - 30" required>
+
+            <label><strong>Wich type of pet is it: </strong></label>
+
+            <select id="dropdown">
+                <option>Other</option>
+                <option>Cat</option>
+                <option>Dog</option>
+                <option>Horse</option>
+                <option>Hamster</option>
+                <option>Bird</option>
+                <option>Rabbit</option>
+                <option>Reptile</option>
+                <option>Amphibian</option>
+                <option>Snake</option>
+                <option>Chicken</option>
+            </select>
+
+            <label><strong>Reward?</strong></label>
+        
+            <label class="selectable vac"><input type="radio" name="reward" value="yes">Yes</label><label class="selectable vac"><input type="radio" name="reward" value="no" checked>No</label>
+
+            <label><strong>Given vaccines</strong></label>
+            <label class="vac selectable"><input type="checkbox" value="vac-rabies">Rabies</label>
+            <label class="vac selectable"><input type="checkbox" value="vac-leptospirosis">Leptospirosis</label>
+            <label class="vac selectable"><input type="checkbox" value="vac-parvovirus">Parvovirus</label>
+            <label class="vac selectable"><input type="checkbox" value="vac-hepatitis">Hepatitis</label>
+            <label class="vac selectable"><input type="checkbox" value="vac-influenza">Influenza</label>
+            <label class="vac selectable"><input type="checkbox" value="vac-coronavirus">Coronavirus</label>
+        
+            <label><strong>Add more info about your pet: </strong></label>
+            <textarea id="info" placeholder="Medium-sized, golden retriever mix with a friendly disposition. He has a white patch on his chest. Last seen wearing a blue collar."></textarea>
+    
+            <!--OWNER INFO-->
+
+            <fieldset><legend>Owner info</legend>
+        
+                <label id="name-label">Owner's name: </label><input id="name" type="text" placeholder="Your name" required>
+                <label id="email-label">Email: </label><input id="email" type="email" placeholder="example@hotmail.com" required>
+                
+        </fieldset>
+        <button id="submit" type="submit">Submit</button>
+    </fieldset>
+
+    
+    
+</form>
+
+</body>
+</html>
